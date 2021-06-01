@@ -7,7 +7,7 @@ public class ZipCodeTest {
 
   @Test
   public void enterValidZipCode() {
-    System.setProperty("webdriver.chrome.driver", "C:\\Users\\Anton Usik\\Downloads\\chromedriver_win32\\chromedriver.exe");
+    System.setProperty("webdriver.chrome.driver", "C:\\Users\\PC\\Downloads\\chromedriver_win32\\chromedriver.exe");
     ChromeDriver driver = new ChromeDriver();
     driver.get("https://www.sharelane.com/cgi-bin/register.py");
     driver.findElementByName("zip_code").click();
